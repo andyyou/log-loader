@@ -1,5 +1,7 @@
+const loaderUtils = require('loader-utils');
+
 module.exports = function (content, map, meta) {
-  const options = this.loaders[this.loaderIndex].options;
+  const options = loaderUtils.getOptions(this);
   const beforeMessage = options['beforeMessage'] ? `\n>>>>>${options['beforeMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
   const afterMessage = options['afterMessage'] ? `\n>>>>>${options['afterMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
 
