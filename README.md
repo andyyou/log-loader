@@ -31,7 +31,7 @@ module.exports = {
           {
             loader: 'log-loader',
             options: {
-              startMessage: 'After resolve-url-loader',
+              beforeMessage: 'After resolve-url-loader',
             }
           },
           {

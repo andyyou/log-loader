@@ -1,9 +1,9 @@
 module.exports = function (content, map, meta) {
   const options = this.loaders[this.loaderIndex].options;
-  const startMessage = options['startMessage'] ? `\n>>>>>${options['startMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
-  const endMessage = options['endMessage'] ? `\n>>>>>${options['endMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
+  const beforeMessage = options['beforeMessage'] ? `\n>>>>>${options['beforeMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
+  const afterMessage = options['afterMessage'] ? `\n>>>>>${options['afterMessage']}>>>>>\n` : '\n>>>>>>>>>>\n';
 
-  console.log(startMessage, content, endMessage);
+  console.log(beforeMessage, content, afterMessage);
 
   this.callback(null, content, map, meta);
   return;
