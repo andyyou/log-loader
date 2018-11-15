@@ -1,6 +1,6 @@
 {
   "name": "@andyyou/log-loader",
-  "version": "0.1.3",
+  "version": "0.1.5",
   "description": "Console compile result between webpack loaders",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,10 @@
     "loader"
   ],
   "author": "andyyou",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andyyou/log-loader.git"
+  },
   "license": "MIT",
   "dependencies": {
     "loader-utils": "^1.1.0"

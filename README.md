@@ -2,12 +2,6 @@
 
 Loader for webpack to dev and `console.log` compile result during development.
 
-### Install
-
-```bash
-$ npm i log-loader -D
-```
-
 ### Usage
 
 Add loader to `module.rules`
