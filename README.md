@@ -29,7 +29,7 @@ module.exports = {
             loader: 'css-loader',
           },
           {
-            loader: './loaders/my-loader',
+            loader: 'log-loader',
             options: {
               startMessage: 'After resolve-url-loader',
             }
@@ -53,7 +53,7 @@ module.exports = {
 ### Options
 
 |option|description|type|default|
-|---|---|---|
+|---|---|---|---|---|
 |beforeMessage|show message before console result|string|`''`|
 |afterMessage|show message after console result|string|`''`|
 

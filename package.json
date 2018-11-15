@@ -1,6 +1,6 @@
 {
-  "name": "log-loader",
-  "version": "0.1.0",
+  "name": "@andyyou/log-loader",
+  "version": "0.1.1",
   "description": "Console compile result between webpack loaders",
   "main": "index.js",
   "scripts": {
